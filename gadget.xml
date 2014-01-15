@@ -12,7 +12,7 @@
 		    display_name="Debug On"
 			datatype="bool" />
 	<Content type="html"><![CDATA[
-<link rel="stylesheet" type="text/css" href="https://googledrive.com/host/0B73Pudht-avwZEc2eUh0amZ4elk/gadget.css"> 
+<link rel="stylesheet" type="text/css" href="https://raw.github.com/jingeist/driving-by-site/master/gadget.css"> 
 <div id="loading">
 	<div>Loading...
 		<br>
@@ -34,7 +34,7 @@
 </table>
 <div id="debugButton"><div id="debug"></div>...</div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="https://googledrive.com/host/0B73Pudht-avwZEc2eUh0amZ4elk/gadget.js"></script>
+<script src="https://raw.github.com/jingeist/driving-by-site/blob/master/gadget.js"></script>
 ]]>
 	</Content>
 </Module>
