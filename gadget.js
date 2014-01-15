@@ -23,7 +23,7 @@ function handleData(){
 	$('#loading').hide();
 	$('#pageslabel').append(prefs.getString("pageslabel"));
 	
-	$('#thisFolder').append('<a target="_blank" href="' + data.driveurl + '">Open "' + data.name + '" in Drive').fadeIn();
+	$('#thisFolder').append('<a target="_blank" href="https://drive.google.com/a/google.com/?usp=folder#folders/' + data.id + '">Open "' + data.name + '" in Drive').fadeIn();
 	for (var pageKey in data.pages){
 		var page=data.pages[pageKey];
    		$('#pages').append('<tr>'
@@ -33,7 +33,7 @@ function handleData(){
 		      + '</a>'
 		      + '</td>'
 		      + '<td class="shortcuts">'
-		      + '<a class="drive icon" target="_blank" href="' + page.driveurl + '">Open related Drive folder</a>'
+		      + '<a class="drive icon" target="_blank" href="https://drive.google.com/a/google.com/?usp=folder#folders/' + page.id + '">Open related Drive folder</a>'
 		      + '</td>'
 		      + '</tr>').fadeIn();
 	}
@@ -41,7 +41,7 @@ function handleData(){
 		var folder=data.folders[folderKey];
    		$('#files').append('<tr>'
 		      + '<td class="entity folder">'
-		      + '<a target="_blank" href="' + folder.driveurl + '">'
+		      + '<a target="_blank" href="https://drive.google.com/a/google.com/?usp=folder#folders/' + folder.id + '">'
 		      + folder.name 
 		      + '</a>'
 		      + '</td>'

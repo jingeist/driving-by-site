@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-	<ModulePrefs title="Driving by Site ALPHA"/>
+	<ModulePrefs title="Driving by Site"/>
 	<UserPref name="folderid"
 	    display_name="Folder ID"
 	    required="true" />
