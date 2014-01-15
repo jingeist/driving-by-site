@@ -34,15 +34,7 @@
 </table>
 <div id="debugButton"><div id="debug"></div>...</div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<script src="https://raw.github.com/jingeist/driving-by-site/master/gadget.js"></script>
-=======
-<script src="https://rawgithub.com/jingeist/driving-by-site/blob/master/gadget.js"></script>
->>>>>>> stable
-=======
 <script src="https://rawgithub.com/jingeist/driving-by-site/master/gadget.js"></script>
->>>>>>> unstable
 ]]>
 	</Content>
 </Module>
