@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+	<ModulePrefs title="Driving by Site ALPHA"/>
+	<UserPref name="folderid"
+	    display_name="Folder ID"
+	    required="true" />
+	<UserPref name="pageslabel"
+		display_name="Pages Heading Label"
+		default_value="Pages"
+		required="true" />
+	<UserPref name="debug"
+		    display_name="Debug On"
+			datatype="bool" />
+	<Content type="html"><![CDATA[
+<link rel="stylesheet" type="text/css" href="https://googledrive.com/host/0B73Pudht-avwZEc2eUh0amZ4elk/gadget.css"> 
+<div id="loading">
+	<div>Loading...
+		<br>
+		<br>
+	<img src="https://ssl.gstatic.com/ui/v1/activityindicator/loading_bg_f5.gif"></div>
+</div>
+<table id="pages">
+	<tr>
+		<th id="pageslabel" class="entity pages"></th>
+		<th></th>
+	</tr>
+</table>
+<div id="thisFolder" class="entity folder"></div>
+<table id="files">
+	<tr>
+		<th class="entity drive">Folders and Files</th>
+		<th></th>
+	</tr>
+</table>
+<div id="debugButton"><div id="debug"></div>...</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://googledrive.com/host/0B73Pudht-avwZEc2eUh0amZ4elk/gadget.js"></script>
+]]>
+	</Content>
+</Module>
